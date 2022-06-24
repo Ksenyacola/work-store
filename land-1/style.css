@@ -13,7 +13,7 @@ a:hover {
     width: 100%;
     color: white;
 }
- 
+
 li {
     list-style-type: none;
     text-transform: uppercase;
@@ -63,11 +63,14 @@ p {
 }
 
 button {
-   padding: 10px;
    border-radius: 0%;
    text-transform: uppercase;
    font-size: 10px;
    width: 100px;
+}
+
+button:hover {
+    box-shadow: 2px 2px rgba(255, 166, 0, 0.625);
 }
 
 .main {
@@ -80,4 +83,11 @@ img {
     right: 20px;
     top: 110px;
     width: 500px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    transition: all ease .3s;
 }
